@@ -10,7 +10,25 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@reduxjs/toolkit": "^2.7.0",
+    "axios": "^1.9.0",
+    "bootstrap": "^5.2.3",
+    "formik": "^2.4.4",
+    "react-bootstrap": "^2.7.4",
+    "react-icons": "^5.5.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.16.0",
+    "react-toastify": "^11.0.5",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4"
   },
   "scripts": {
     "start": "react-scripts start",
