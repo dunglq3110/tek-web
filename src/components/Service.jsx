@@ -177,9 +177,14 @@ function Service() {
                   <Col md={5} className="text-center text-md-start">
                     <h3 className="mb-4">Elevate Your Gaming Experience</h3>
                     <p className="mb-4">Our desktop application provides comprehensive match management, player tracking, and performance analytics all in one place.</p>
-                    <Button style={gradientButtonStyle}>
+                    <a
+                      href="/downloads/TekHubSetup4.6.0.exe"
+                      style={gradientButtonStyle}
+                      download
+                    >
                       Download
-                    </Button>
+                    </a>
+
                   </Col>
                 </Row>
               </div>
@@ -308,7 +313,7 @@ function Service() {
                   <Col md={5} className="text-center text-md-start">
                     <h3 className="mb-4">Gaming On The Go</h3>
                     <p className="mb-4">Take control of your gaming experience anywhere with our powerful mobile companion app.</p>
-                    <Button style={gradientButtonStyle}>
+                    <Button style={gradientButtonStyle} href='https://expo.dev/artifacts/eas/eaCGH48FTAzKsmfJnJHsJ7.apk'>
                       Download
                     </Button>
                   </Col>

@@ -9,8 +9,9 @@ import About from './components/About';
 import Register from './pages/Register';
 import Profile from './pages/Profile';
 import Login from './pages/Login';
-import Service from "./components/Service";
+import MatchDetail from "./pages/MatchDetail";
 
+import Service from "./components/Service";
 const ProtectedRoute = ({ children }) => {
   const { isAuthenticated } = useSelector(state => state.auth);
 
@@ -45,6 +46,7 @@ function App() {
           </ProtectedRoute>
         } />
         <Route path="/profile/:id" element={<Profile />} />
+        <Route path="/match/:id" element={<MatchDetail />} />
       </Route>
     </Routes>
   );
