@@ -9,6 +9,4 @@ export const gradientStyle = {
     color: 'white'
 };
 
-export const BASE_URL = 'http://192.168.1.200:5185/api';
-
-//export const BASE_URL = 'https://tekbackend-c4hna5a8eegagzfz.australiacentral-01.azurewebsites.net/api';
+export const BASE_URL = 'http://192.168.199.200:5185/api';
